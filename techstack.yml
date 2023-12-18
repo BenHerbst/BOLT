@@ -1,0 +1,67 @@
+repo_name: BenHerbst/BOLT
+report_id: cd4afc80891c4bbbfc71e1354ee22b6f
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-18T21:51:30+00:00'
+requested_by: Linuxuser1234
+provider: github
+branch: main
+detected_tools_count: 5
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source: BOLT/pom.xml
+  last_updated_by: SYNC
+  last_updated_on: 2022-06-19 00:49:48.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  version: 5.8.2
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/BOLT/blob/main/BOLT/pom.xml
+  detection_source: BOLT/pom.xml
+  last_updated_by: SYNC
+  last_updated_on: 2022-06-19 00:49:48.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  version: 5.8.2
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/BOLT/blob/main/BOLT/pom.xml
+  detection_source: BOLT/pom.xml
+  last_updated_by: SYNC
+  last_updated_on: 2022-06-19 00:49:48.000000000 Z
